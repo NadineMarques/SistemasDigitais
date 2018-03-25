@@ -1,5 +1,3 @@
-.global main
-
 main:
 	movi r2, 0b00001000
 	movi r3, 0b00001011
@@ -11,5 +9,4 @@ loop:
 	bge r3, r2, loop
 	
 end:
-	br end
 	.end
